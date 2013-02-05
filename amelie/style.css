@@ -1,0 +1,98 @@
+body {
+	background-color: #eeeeee;
+	font-family: helvetica, arial, sans-serif;
+}
+#sidebar {
+	float: left;
+	width: 230px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+}
+#main-content {
+	float: right;
+	width: 650px;
+}
+
+body > div {
+	width: 925px;
+	margin-top: 40px;
+	}
+nav {
+	border-top: 2px;
+	border-top color: #777777;
+	border-top-style: solid;   /*   or this : border-top: 2px solid #777777; */
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+nav > ul {
+	list-style: none;
+	padding-left: 0px;
+}
+/*
+nav > ul > li {
+	background-color: #e1e1e1;
+	margin-bottom: 4px;
+	border-radius: 10px;
+} */
+	
+nav > ul > li:hover { /* space between li and : matters! space means decendents of list items ! */;
+	background-color: #666666;
+
+
+}
+nav > ul > li a {
+	display: block;
+	text-decoration: none;
+	background-color: #e1e1e1;
+	margin-bottom: 2px;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+nav > ul > li a:link,
+nav > ul > li a:visited {
+color: #777777;
+}
+nav > ul > li a:hover {
+	color: white;
+	background: #666666;
+}
+article{
+	background-color: white;
+	border: 1px solid #777777;
+}
+article img {   /* setting image to fill 100% of its container */
+	width:100%;
+	height:100%;
+}
+article header {
+	width: 100%;
+	height: 480px;
+	/* overflow:hidden; would be used for an XL image */
+}
+article div {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#heading {
+	font-family: helvetica, arial, sans-serif;
+}
+.share-button {
+	text-decoration: none;
+	float: right;
+	display:block;
+	background-color: #eeeeee;
+	margin-bottom: 2px;
+	border-radius: 4px;
+	padding: 1px 5px 1px 5px;
+	color: #777777;
+
+}
+.share-button:link{
+	color: #777777;
+}
